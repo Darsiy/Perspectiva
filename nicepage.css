@@ -38239,7 +38239,17 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 
+@media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 108px;
+  }
 
+  .u-header .u-menu-1 {
+    margin-top: 38px;
+    margin-bottom: 38px;
+    margin-right: auto;
+  }
+}
  .u-footer {
   background-image: none;
 }
